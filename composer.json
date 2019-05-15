@@ -1,0 +1,22 @@
+{
+  "description": "php-redis basic queue example with supervisor",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Dılo sürücü",
+      "email": "berxudar@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Zeus\\": "Src"
+    },
+    "files": [
+      "Helpers/Helpers.php"
+    ]
+  },
+  "require": {
+    "predis/predis": "^1.1"
+  }
+}
